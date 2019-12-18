@@ -1,0 +1,93 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    font-size: 90px;
+}
+
+h2 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+nav {
+    display: flex;
+    align-self: flex-start;
+    justify-content: space-between;
+    padding: 3% 3% 3% 1%;
+}
+
+a {
+    color: rgba(36, 32, 32, 0.8);
+    text-decoration: none;
+}
+a:hover{
+    color:red;
+}
+h1{
+    text-align:center;
+}
+
+
+.form {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5% 0% 4% 30%;
+    padding: 2%;
+    background-color: rgba(184, 176, 176, 0.17);
+}
+
+input {
+    margin:5%;
+   position:center;
+}
+
+button {
+    height: 40px;
+    width: 200px;
+    margin: 5% 0 0 20%;
+    padding: 0;
+    border-radius: 5%;
+    font-family: 'Bangers', cursive;
+    font-size: 20px;
+    background-color: rgba(184, 176, 176, 0.17);
+    text-align: center;
+}
+
+.contact2 {
+   position: relative;
+   top: 90%;
+   width:100%;
+   height:200px;
+}
+p{
+    text-align:center;
+}
+footer {
+    text-align: center;
+}
